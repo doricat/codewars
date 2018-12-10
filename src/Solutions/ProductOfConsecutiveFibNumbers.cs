@@ -1,10 +1,12 @@
-﻿using System;
+﻿// https://www.codewars.com/kata/product-of-consecutive-fib-numbers/csharp
+
+using System;
 
 namespace Solutions
 {
-    public class ProductOfConsecutiveFibNumbers
+    public static class ProductOfConsecutiveFibNumbers
     {
-        public Tuple<ulong, ulong, bool> ProductFib(ulong m)
+        public static Tuple<ulong, ulong, bool> ProductFib(ulong m)
         {
             ulong n = 0;
             while (true)
@@ -25,7 +27,7 @@ namespace Solutions
         private static ulong Fib(ulong n)
         {
             var v = Math.Sqrt(5);
-            return (ulong)Math.Round(Math.Pow((1 + v) / 2, n) / v);
+            return (ulong) Math.Round(Math.Pow((1 + v) / 2, n) / v);
         }
     }
 }
