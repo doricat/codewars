@@ -1,0 +1,17 @@
+{
+  "name": "codewars",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/inwlbty/codewars.git",
+  "author": "inwlbty <inwlbty@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/mocha": "^5.2.6",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "mocha": "^6.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}

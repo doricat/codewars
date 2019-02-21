@@ -1,0 +1,1 @@
+var equal = require("assert");
